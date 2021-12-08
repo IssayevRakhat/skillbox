@@ -79,7 +79,7 @@ function architecture(e){
 
 function profile(e){
 
-	document.getElementById("profileUsername").innerHTML=username;
+	document.getElementById("profileName").innerHTML=username;
 	document.getElementById("profileEmail").innerHTML=JSON.parse(localStorage.getItem(username)).email;
 	document.getElementById("profilePassword").innerHTML=JSON.parse(localStorage.getItem(username)).password;
 	document.getElementById("profileCourses").innerHTML=JSON.parse(localStorage.getItem(username)).courses;
